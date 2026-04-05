@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <title>Joguinho</title>
+</head>
+<body>
+  
+  
+  <h1>Joguinho</h1>
+  <div id="tela">
+  <div id="mapa" class="hidden">
+    <div id="personagem">
+    </div>
+    <div id="loja">
+    </div>
+  </div>
+  <div id="menu" class="">
+    <h2 id="c">coins: 0</h2>
+    <h4 id="o">ovos coletados: 0</h4>
+    <br></br>
+    <input type="number" name="Quantidade" id="quant">
+    <br></br>
+    <button onclick="vender()">vender</button>
+    <button onclick="startGame(j, m)">resume</button>
+  </div>
+  </div>
+  <div id="controles">
+
+<button class="tecla" onclick="mover('cima')">⬆</button>
+
+<br>
+
+<button class="tecla" onclick="mover('esquerda')">⬅</button>
+
+<button class="tecla" onclick="mover('baixo')">⬇</button>
+
+<button class="tecla" onclick="mover('direita')">➡</button>
+
+
+</div>
+  
+  
+  
+  
+  <script src="script.js"></script>
+</body>
+</html>
